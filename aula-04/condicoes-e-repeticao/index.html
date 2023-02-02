@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: azure;
+    }
+
+    .cubo {
+        display: none;
+        background-color: darkcyan;
+        color: white;
+        text-align: center;
+        width: 150px;
+        height: 150px;
+    }
+
+    button {
+        background-color: green;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 50px;
+    }
+</style>
+<body>
+    <h1>Teste</h1>
+    <button onclick="clickMe()">ON</button>
+    <script>
+        // var c = 1
+        // while (c <= 9) {
+        //     console.log(c)
+        //     c++
+        // }
+
+        console.log('Vai começar')
+        for(var c = 1;c <= 50;c++) {
+            console.log('FIM!')
+        }
+
+        var body = document.querySelector('body')
+        var div = document.createElement('div')
+        div.innerHTML = 'SAMUEL'
+        div.className = 'cubo'
+
+        body.appendChild(div)
+
+        var h1 = document.querySelector('h1')
+        var button = document.querySelector('button')
+        function clickMe(){
+            if(button.style.backgroundColor == 'green'){
+                button.style.backgroundColor = 'red'
+                button.style.color = 'white'
+                button.innerHTML = 'OFF'
+                body.style.backgroundColor = '#272829'
+                body.style.color = 'white'
+                h1.innerHTML = 'Teste Dark'
+            }else{
+                button.style.backgroundColor = 'green'
+                button.style.color = 'white'
+                button.innerHTML = 'ON'
+                body.style.backgroundColor = 'white'
+                body.style.color = 'black'
+                h1.innerHTML = 'Teste Light'
+            }
+        }
+
+        
+    </script>
+</body>
+</html>
