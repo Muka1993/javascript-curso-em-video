@@ -9,6 +9,7 @@ header {
 }
 
 section {
+    font-size: 25px;
     background-color: white;
     width: 500px;
     padding: 20px;
@@ -17,6 +18,41 @@ section {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
 }
 
+input#txtn {
+    font-size: 19px;
+    width: 100px;
+}
+
+#btn {
+    width: 100px;
+    height: 25px;
+}
+
+select {
+    background-color: rgb(224, 224, 224);
+    overflow: hidden;
+    width: 150px;
+    font-size: 19px;
+    padding: 10px;
+    border: 2px solid rgb(248, 248, 248);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.527);
+}
+ .leter {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    letter-spacing: 5px;
+    text-shadow: 0 0 2px red;
+    transform: rotate(90deg) translate(100px, 0px);
+ }
+
+ .result {
+    color: red;
+ }
+
 footer {
+    font-size: 25px;
     text-align: center;
 }
