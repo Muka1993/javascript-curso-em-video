@@ -1,23 +1,26 @@
 @charset "UTF-8";
 
-body {
-    background-color: aquamarine;
-}
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-header {
+body { font: 20px Arial; 
     text-align: center;
+
+}
+h1, h2, h3 { font-family: 'Pacifico', cursive; font-weight: normal;}
+input[type=number] { font-size: 20px; }
+input[type=submit] { 
+    background-color: green; 
+    color: white; 
+    font-size: 20px; 
+    padding: 5px; 
 }
 
-section {
-    background-color: aliceblue;
+#entrada {
+    background-color: #cecece;
     width: 500px;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
 
-}
-
-footer {
-    text-align: center;
 }
