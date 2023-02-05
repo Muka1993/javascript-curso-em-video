@@ -52,6 +52,13 @@ select {
     color: red;
  }
 
+ .cubo {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+ }
+
 footer {
     font-size: 25px;
     text-align: center;

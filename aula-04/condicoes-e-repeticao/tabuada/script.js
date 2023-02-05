@@ -19,7 +19,10 @@ function gerarTabuada() {
 
         let res = `${n*c}`
 
-    }
-
-    
+    }  
 }
+
+let corpo = document.querySelector('body')
+let div = document.createElement('div')
+div.className = 'cubo'
+body.appendChild(div)
